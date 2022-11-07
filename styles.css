@@ -84,3 +84,44 @@ a {
     font-size: 18px;
     padding: 8px;
 }
+
+/*Random Info*/
+.tile_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.tile_group {
+    display: flex;
+    gap: 20px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+.tile_text {
+    font-size: 18px;
+    text-align: center;
+    color: #3e4c5e;
+    width: 150px;
+}
