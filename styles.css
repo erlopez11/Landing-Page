@@ -125,3 +125,27 @@ a {
     color: #3e4c5e;
     width: 150px;
 }
+
+/*quote*/
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 150px;
+    text-align: justify;
+    display: flex;
+}
+
+.quote_author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight:bold;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+}
